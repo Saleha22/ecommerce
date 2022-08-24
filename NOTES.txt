@@ -1,0 +1,53 @@
+- Create DB
+- Connect to DB using Sequelize
+- Complete the models
+- Seed data
+
+Endpoints:
+
+GET
+- /api/categories
+- /api/products
+- /api/tags
+
+GET
+- /api/categories/:id
+- /api/products/:id
+- /api/tags/:id
+
+POST
+- /api/categories
+- /api/products
+- /api/tags
+
+PUT
+- /api/categories/:id
+- /api/products/:id
+- /api/tags/:id
+
+DELETE
+- /api/categories/:id
+- /api/products/:id
+- /api/tags/:id
+
+ERROR HANDLING
+
+GET
+- if internal server error return a status code of 500
+
+GET /:id
+- if not found return a status of 404
+- if internal server error return a status code of 500
+
+POST /
+- validate the payload and if bad request return status code of 400
+- if internal server error return a status code of 500
+
+PUT /:id
+- validate the payload and if bad request return status code of 400
+- if not found return a status of 404
+- if internal server error return a status code of 500
+
+DELETE /:id
+- if not found return a status of 404
+- if internal server error return a status code of 500
