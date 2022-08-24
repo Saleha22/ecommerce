@@ -8,10 +8,6 @@
     "dev": "nodemon src/server.js",
     "seed": "node src/seeds/index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git@work.github.com:coding-boot-camp/module-13-challenge-orm.git"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
