@@ -24,7 +24,7 @@ This application creates an API which can show data on company products based on
 
 ## Link to video recording
 
-[postman of E-commerce recording](https://drive.google.com/file/d/1hnVRgAQ0UVWnAfOQL1dq4J6Sk37b7pkM/view)
+[postman of E-commerce recording](https://drive.google.com/file/d/1ow6k6qc7lS1eUFU57B47TxfUSgU-xYed/view)
 
 ## User Story
 
